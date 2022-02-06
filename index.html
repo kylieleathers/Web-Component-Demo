@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Components Demo</title>
+</head>
+<body>
+
+    <!--user header-->
+    
+   
+
+
+    <!-- user 1-->
+    <user-card name = "User 1" avatar = "user1.png">
+        <div slot = "email">user1@simplyicard.com</div>
+        <div slot = "phone"> 555-555-5555</div>
+        <div slot = "Job"> Software Developer</div>
+    </user-card>
+
+    <!--user 2-->
+    <user-card name = "User 2" avatar = "user2.png">
+        <div slot = "email"> user2@simplyicard.com</div>
+        <div slot = "phone"> 333-333-333</div>
+        <div slot = "Job"> Project Lead</div>
+    </user-card>
+
+     <!--user 3-->
+     <user-card name = "User 3" avatar = "user1.png">
+        <div slot = "email"> user3@simplyicard.com</div>
+        <div slot = "phone"> 333-333-333</div>
+        <div slot = "Job"> President</div>
+    </user-card>
+
+    <!--user 4-->
+    <user-card name = "User 3" avatar = "user2.png">
+        <div slot = "email"> user3@simplyicard.com</div>
+        <div slot = "phone"> 333-333-333</div>
+        <div slot = "Job"> Software Developer</div>
+    </user-card>
+
+    <script src = 'user-header.js'></script>
+    <script src = 'user-cards.js'></script>
+
+    <link rel = "style sheet" href = "styles.css">
+</body>
+</html>
